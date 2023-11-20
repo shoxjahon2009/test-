@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: #8481FF;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    background: #8481FF;
+}
+
+.logo-left{
+    display: flex;
+    width: 20%;
+    gap: 10px;
+}
+
+.logos-text{
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 23px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+
+nav a{
+    color: #fff;
+}
+
+.home{
+    padding: 130px;
+    display: flex;
+
+}
+
+.home-title{
+    color: #FFF;
+font-family: Google Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 65px; /* 162.5% */
+color: #FFF;
+font-family: Google Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 65px;
+}
+
+.text{
+    color: #31546D;
+font-family: Google Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+padding-top: 15px;
+
+}
+
+.Shop{
+    color: #317189;
+text-align: center;
+font-family: Google Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; 
+margin-top: 20px;
+cursor: pointer;
+border-radius: 25px;
+border: none;
+transition: 0.7s;
+
+}
+
+.btns button:hover{
+    background: yellow;
+    color: red;
+    box-shadow:orange;
+}
+
+.About{
+    color: #317189;
+font-family: Google Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+margin-top: 20px;
+cursor: pointer;
+border-radius: 25px;
+border: none;
+
+    
+}
+
+.home-right{
+    width: 362px;
+height: 362px;
+flex-shrink: 0;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+margin-left: 200px;
+border-radius: 50px;
+}
+
+.btns{
+    width: 362px;
+height: 454px;
+flex-shrink: 0;
+}
+
+
+.product-all{
+    text-align: center;
+}
+
+.images-container{
+    display: flex;
+    gap: 40px;
+}
+
+
+.all-text{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -20px;
+    padding-top: -20px;
+    
+    
+    
+}
+
+.view{
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    font-size: 40px; 
+}
+
+.buttnlar{
+    text-align: center;
+    border-radius: 30px;
+    font-size: 40px;
+}
+
+.Group container {
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
